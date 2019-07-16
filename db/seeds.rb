@@ -1,7 +1,13 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Animal.create(name: "Panda 1", status: "endangered", img: "https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", gender: "female", age: 32, category:"panda")
+Animal.create(name: "Panda 2", status: "endangered", img: "https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", gender: "male", age: 32, category:"panda")
+Animal.create(name: "Panda 3", status: "dead", img: "https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", gender: "female", age: 1, category:"panda")
+Animal.create(name: "Panda 4", status: "dead", img: "https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", gender: "female", age: 3, category:"panda")
+Animal.create(name: "Panda 5", status: "dead", img: "https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", gender: "male", age: 5, category:"panda")
+Animal.create(name: "Monkey 1", status: "endangered", img: "https://images.unsplash.com/photo-1548822871-41e3a4d34fee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", gender: "female", age: 22, category:"monkey")
+Animal.create(name: "Monkey 2", status: "endangered", img: "https://images.unsplash.com/photo-1548822871-41e3a4d34fee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", gender: "male", age: 22, category:"monkey")
+Animal.create(name: "Monkey 3", status: "dead", img: "https://images.unsplash.com/photo-1548822871-41e3a4d34fee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", gender: "male", age: 2, category:"monkey")
+Animal.create(name: "Monkey 4", status: "dead", img: "https://images.unsplash.com/photo-1548822871-41e3a4d34fee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", gender: "male", age: 4, category:"monkey")
+Animal.create(name: "Monkey 5", status: "dead", img: "https://images.unsplash.com/photo-1548822871-41e3a4d34fee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", gender: "female", age: 4, category:"monkey")
+
+User.create(name: "Lizzie")
+User.create(name: "Danica")
