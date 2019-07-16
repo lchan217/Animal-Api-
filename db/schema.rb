@@ -15,17 +15,18 @@ ActiveRecord::Schema.define(version: 2019_07_16_141229) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "animals_tables", force: :cascade do |t|
+  create_table "animals", force: :cascade do |t|
     t.string "name"
     t.string "status"
     t.string "img"
     t.string "gender"
     t.integer "age"
-    t.integer "count"
+    t.string "category"
   end
 
-  create_table "users_tables", force: :cascade do |t|
+  create_table "users", force: :cascade do |t|
     t.string "name"
+    t.datetime "created_at"
   end
 
 end
