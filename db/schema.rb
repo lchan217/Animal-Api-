@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2019_07_17_125655) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at"
-    t.string "high_scores"
+    t.string "score"
   end
 
 end
