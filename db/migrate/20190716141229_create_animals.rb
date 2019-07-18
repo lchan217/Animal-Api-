@@ -4,8 +4,6 @@ class CreateAnimals < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :status
       t.string :img
-      t.string :gender
-      t.integer :age
       t.string :category
     end
   end

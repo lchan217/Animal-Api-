@@ -19,8 +19,6 @@ ActiveRecord::Schema.define(version: 2019_07_17_213346) do
     t.string "name"
     t.string "status"
     t.string "img"
-    t.string "gender"
-    t.integer "age"
     t.string "category"
     t.integer "health"
   end
