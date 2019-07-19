@@ -13,3 +13,6 @@ Animal.create(name: "Stanley", status: "endangered", img: "https://images.unspla
 Animal.create(name: "Donatello", status: "endangered", img: "https://images.unsplash.com/photo-1531413260055-c474aa3ee74d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"turtle", health: 0)
 Animal.create(name: "Kookoo", status: "endangered", img: "https://images.unsplash.com/photo-1504575958497-ccdd586c2997?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"koala", health: 0)
 Animal.create(name: "Humphrey", status: "endangered", img: "https://images.unsplash.com/photo-1544256425-c15e9fa2f191?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"camel", health: 0)
+
+User.create(name: "Lizzie", age: 30, occupation: "student", score: 3)
+User.create(name: "Andy", age: 65, occupation: "retired", score: 30)
