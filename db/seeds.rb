@@ -14,5 +14,10 @@ Animal.create(name: "Donatello", status: "endangered", img: "https://images.unsp
 Animal.create(name: "Kookoo", status: "endangered", img: "https://images.unsplash.com/photo-1504575958497-ccdd586c2997?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"koala", health: 0)
 Animal.create(name: "Humphrey", status: "endangered", img: "https://images.unsplash.com/photo-1544256425-c15e9fa2f191?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"camel", health: 0)
 
-User.create(name: "Lizzie", age: 30, occupation: "student", score: 3)
-User.create(name: "Andy", age: 65, occupation: "retired", score: 30)
+User.create(name: "Lizzie", age: 25, occupation: "teacher", score: 25)
+User.create(name: "Andy", age: 23, occupation: "funemployed", score: 32)
+User.create(name: "Connie", age: 22, occupation: "student", score: 45)
+User.create(name: "Claire", age: 9, occupation: "student", score: 26)
+User.create(name: "Sarah", age: 14, occupation: "student", score: 17)
+User.create(name: "Mike", age: 79, occupation: "retired", score: 34)
+User.create(name: "Eric", age: 81, occupation: "retired", score: 29)
