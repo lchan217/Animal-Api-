@@ -9,6 +9,11 @@ class UserController < ApplicationController
     render json: user
   end
 
+  def update 
+    user = User.last 
+    render json:user
+  end 
+
   def user_params
      params.require(:user).permit(:id, :name, :score, :age, :occupation)
   end
