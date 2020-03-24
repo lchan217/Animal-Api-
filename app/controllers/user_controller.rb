@@ -11,6 +11,7 @@ class UserController < ApplicationController
 
   def update 
     user = User.last 
+    user.update(score: params[:time])
     render json:user
   end 
 
