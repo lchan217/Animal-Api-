@@ -2,7 +2,7 @@ Animal.create(name: "Bamboo", status: "Endangered", img: "https://images.unsplas
 Animal.create(name: "Mooch", status: "Endangered", img: "https://images.unsplash.com/photo-1548822871-41e3a4d34fee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"monkey", health: 0)
 Animal.create(name: "Orion", status: "Endangered", img: "https://images.unsplash.com/reserve/wrev1ljvQ6KlfyljCQG0_lion.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"lion", health: 0)
 Animal.create(name: "Dumbo", status: "Endangered", img: "https://images.unsplash.com/photo-1551316679-9c6ae9dec224?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"elephant", health: 0)
-Animal.create(name: "Roam", status: "Endangered", img: "https://images.unsplash.com/photo-1536539500137-2f68f173fce0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"cheetah", health: 0)
+Animal.create(name: "Roam", status: "Endangered", img: "https://images.unsplash.com/photo-1538100951519-36a3de1136c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"cheetah", health: 0)
 Animal.create(name: "Oasis", status: "Endangered", img: "https://images.unsplash.com/photo-1526034332220-067b0f400e06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"tiger", health: 0)
 Animal.create(name: "Ziggy", status: "Endangered", img: "https://images.unsplash.com/photo-1509870925592-d67b587a2713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"zebra", health: 0)
 Animal.create(name: "Gerald", status: "Endangered", img: "https://images.unsplash.com/photo-1558357457-a30d926f1240?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"giraffe", health: 0)
@@ -13,6 +13,7 @@ Animal.create(name: "Stanley", status: "Endangered", img: "https://images.unspla
 Animal.create(name: "Donatello", status: "Endangered", img: "https://images.unsplash.com/photo-1531413260055-c474aa3ee74d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"turtle", health: 0)
 Animal.create(name: "Kookoo", status: "Endangered", img: "https://images.unsplash.com/photo-1504575958497-ccdd586c2997?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"koala", health: 0)
 Animal.create(name: "Humphrey", status: "Endangered", img: "https://images.unsplash.com/photo-1544256425-c15e9fa2f191?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"camel", health: 0)
+Animal.create(name: "Cutie", status: "Endangered", img: "https://images.unsplash.com/photo-1551183666-cae6bcb61785?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60", category:"orangutan", health: 0)
 
 User.create(name: "Lizzie", age: 25, occupation: "teacher", score: 25)
 User.create(name: "Andy", age: 23, occupation: "funemployed", score: 32)
