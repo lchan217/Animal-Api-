@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 2020_04_02_171143) do
     t.integer "score"
     t.integer "age"
     t.string "occupation"
-    t.boolean "success"
+    t.boolean "success", default: false
   end
 
 end
