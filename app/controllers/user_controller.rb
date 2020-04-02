@@ -1,6 +1,6 @@
 class UserController < ApplicationController
   def index
-    @users = User.all
+    @users = User.select {|user| user.success}
     render json: @users, status: 201
   end
 
